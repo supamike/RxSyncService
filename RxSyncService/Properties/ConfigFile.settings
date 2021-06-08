@@ -1,0 +1,45 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="RxSyncService.Properties" GeneratedClassName="ConfigFile">
+  <Profiles />
+  <Settings>
+    <Setting Name="LOCAL_HOST" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">localhost</Value>
+    </Setting>
+    <Setting Name="LOCAL_DATABASE" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">KABALE_RRH</Value>
+    </Setting>
+    <Setting Name="LOCAL_PORT" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1433</Value>
+    </Setting>
+    <Setting Name="LOCAL_USER" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">sa</Value>
+    </Setting>
+    <Setting Name="LOCAL_PASSWORD" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">M$$QLp@$$w0rd</Value>
+    </Setting>
+    <Setting Name="LOG_PATH" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\CRDDP\RxSyncService_Log.txt</Value>
+    </Setting>
+    <Setting Name="LAST_SYNC_DATE" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="API_URL_REQ" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://197.157.32.194/elmisAPI/cddp/requisitions</Value>
+    </Setting>
+    <Setting Name="API_URL_ISSUE" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://197.157.32.194/elmisAPI/cddp/issues</Value>
+    </Setting>
+    <Setting Name="FACILITY_CODE" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">5092</Value>
+    </Setting>
+    <Setting Name="SYNC_INTERVAL" Type="System.Int64" Scope="Application">
+      <Value Profile="(Default)">60000</Value>
+    </Setting>
+    <Setting Name="AUTHORIZATION" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">mME1wB9mnhnDHhWdKOlntgi5QcDad69J</Value>
+    </Setting>
+    <Setting Name="SYNC_BATCH_SIZE" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">50</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
