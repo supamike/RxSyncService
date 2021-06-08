@@ -72,12 +72,13 @@ namespace RxSyncService
         public void TasksAll()
         {
             DateTime startDate = DateTime.Now;
+            //Check for Remote server connection
             if (DatabaseConnection.CheckInternetConnection())
             {
+                //Check for Local database connection
                 if (DatabaseConnection.IsConnectionLocal())
                 {
                     WriteToFile("START-SYNC : Started");
-
                     Sync task = new Sync();
                     if (task.NewIssueRecordsCount() == 0)
                     {
@@ -105,6 +106,7 @@ namespace RxSyncService
             {
                 this.WriteToFile("INFO: REMOTE-SERVER IS NOT REACHABLE");
             }
+            //Complete the Synchronization 
             this.WriteToFile("END-SYNC : Completed");
         }
 
